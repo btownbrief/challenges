@@ -1,0 +1,43 @@
+body.admin { background: var(--ground); }
+.admin-wrap { max-width: 860px; margin: 0 auto; padding: 56px 24px 80px; }
+.admin-head h1 {
+  margin: 0; font-family: var(--serif); font-size: clamp(30px, 5vw, 42px);
+  font-weight: 400; letter-spacing: -.01em;
+}
+.admin-head h1 em { color: var(--gold); font-style: italic; }
+.admin-head p { margin: 8px 0 0; color: var(--muted); font-size: 15px; }
+.gate { margin-top: 36px; padding: 28px; background: var(--glass); border: 1px solid var(--line); border-radius: 18px; }
+.gate form { display: flex; gap: 10px; }
+.gate input {
+  flex: 1; min-width: 0; padding: 12px 18px; border-radius: 999px;
+  background: rgba(0,0,0,.3); border: 1px solid var(--line-2); color: var(--ink);
+}
+.gate input:focus { outline: none; border-color: var(--gold); }
+.gate-err { margin: 14px 0 0; color: var(--ember); font-size: 14px; }
+.gate-note { margin: 14px 0 0; color: var(--faint); font-size: 13px; }
+.admin-bar {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  margin: 36px 0 22px;
+}
+.tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+.tabs .n { display: inline-block; margin-left: 7px; padding: 1px 7px; border-radius: 999px; background: rgba(255,255,255,.1); font-size: 11px; }
+.admin-bar-right { display: flex; gap: 16px; }
+.mod { padding: 17px 19px; margin-bottom: 10px; background: var(--glass); border: 1px solid var(--line); border-radius: 14px; }
+.mod.is-flagged { border-color: rgba(255,107,53,.55); background: rgba(255,107,53,.07); }
+.mod.is-hidden { opacity: .55; }
+.mod-ch { margin-bottom: 9px; color: var(--faint); font-size: 12px; }
+.mod-ch a { color: var(--gold); font-weight: 600; text-decoration: none; }
+.mod-ch span { color: var(--muted); }
+.mod-body { margin: 0; color: var(--ink); font-size: 15px; overflow-wrap: anywhere; }
+.mod-note { margin: 5px 0 0; color: var(--muted); font-size: 13.5px; }
+.mod-meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 12px; color: var(--faint); font-size: 12px; }
+.flagpill, .hidpill { padding: 2px 9px; border-radius: 999px; }
+.flagpill { background: rgba(255,107,53,.18); color: var(--ember); font-weight: 600; }
+.hidpill { background: rgba(255,255,255,.09); color: var(--muted); }
+.mod-actions { margin-left: auto; display: flex; gap: 14px; }
+.linkish.danger { color: var(--ember); }
+.admin-empty { padding: 40px 0; text-align: center; color: var(--faint); font-style: italic; }
+@media (max-width: 560px) {
+  .gate form { align-items: stretch; flex-direction: column; }
+  .mod-actions { margin-left: 0; width: 100%; padding-top: 8px; }
+}
