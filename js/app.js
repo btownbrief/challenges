@@ -3,8 +3,7 @@
 
   var SUPABASE_URL = 'https://jnouvwxomrcffqwilqkq.supabase.co';
   var SUPABASE_ANON_KEY = 'sb_publishable_RkMJQopffWlV6DSwCRkndQ_Xw6GJMf3';
-  var COMMUNITY_URL = 'https://www.btownbrief.com/c';
-  // TODO(steve): confirm community URL
+  var COMMUNITY_URL = 'https://www.btownbrief.com/community';
 
   var $ = function (id) { return document.getElementById(id); };
 
