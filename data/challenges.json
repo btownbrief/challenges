@@ -1,0 +1,221 @@
+{
+  "categories": [
+    { "slug": "eat", "label": "Eat", "emoji": "🍔" },
+    { "slug": "climb", "label": "Climb", "emoji": "⛰" },
+    { "slug": "explore", "label": "Explore", "emoji": "🧭" },
+    { "slug": "streak", "label": "Streak", "emoji": "🔁" }
+  ],
+  "challenges": [
+    {
+      "id": "cal-mungo",
+      "title": "The Cal-Mungo Calzone Challenge",
+      "emoji": "🥟",
+      "category": "eat",
+      "where": "Ramunto's Brick Oven Pizzeria, Taft Corners, Williston",
+      "blurb": "5.5 lb calzone, 3+ toppings, marinara for dipping",
+      "details": [
+        "45-minute limit",
+        "costs about $25",
+        "challenge documented, but confirm it's still running before you go"
+      ],
+      "prize": "Win: the meal's free, plus a t-shirt and a spot on the Wall of Fame",
+      "verified": false,
+      "source": "https://www.foodchallenges.com/challenges/ramuntos-cal-mungo-calzone-challenge-williston-vermont/",
+      "original": false
+    },
+    {
+      "id": "the-dozer",
+      "title": "The Dozer",
+      "emoji": "🍔",
+      "category": "eat",
+      "where": "Rozzi's Lakeshore Tavern, Malletts Bay, Colchester",
+      "blurb": "two 1-lb patties, 8 strips of bacon, cheese, cornbread roll, about a pound of fries",
+      "details": [
+        "30-minute limit",
+        "$21.99 win or lose",
+        "Reported ~5% success rate",
+        "documented by Vermont Public in 2024; confirm it's still running"
+      ],
+      "prize": "Win: free t-shirt + the Dozer wall of fame",
+      "verified": false,
+      "source": "https://www.vermontpublic.org/local-news/2024-09-13/liams-burger-local-man-takes-on-the-dozer-challenge-at-rozzis-in-colchester",
+      "original": false
+    },
+    {
+      "id": "vermont-5",
+      "title": "The Vermont 5",
+      "emoji": "⛰",
+      "category": "climb",
+      "where": "statewide",
+      "blurb": "summit all five of Vermont's 4,000-footers: Mount Mansfield (4,393'), Killington Peak (4,235'), Camel's Hump (4,083'), Mount Ellen (4,083'), Mount Abraham (4,006')",
+      "details": [
+        "no official rules or time window — do them in a weekend or over a lifetime"
+      ],
+      "prize": "Green Mountain Club offers a VT5 sticker; vermont5challenge.com offers a finisher patch",
+      "verified": true,
+      "source": "https://www.greenmountainclub.org/how-to-hike-the-vt-5/",
+      "original": false
+    },
+    {
+      "id": "chuck-norris",
+      "title": "The Chuck Norris at Handy's",
+      "emoji": "🥪",
+      "category": "eat",
+      "where": "Handy's Lunch, 74 Maple St, Burlington",
+      "blurb": "a ~3.5-lb breakfast sandwich: 5 French toast slices, 4 eggs, cheese, bacon, ham, sausage, a burger patty, and corned beef",
+      "details": [
+        "as seen on Man v. Food",
+        "name and current details: confirm at the counter"
+      ],
+      "prize": null,
+      "verified": false,
+      "source": "https://handyslunch.wordpress.com/",
+      "original": false
+    },
+    {
+      "id": "loaded-burger",
+      "title": "The 6-lb Loaded Burger",
+      "emoji": "🍔",
+      "category": "eat",
+      "where": "Burger Bar, 831 College Pkwy, Colchester",
+      "blurb": "three tower burgers combined — bacon, banana peppers, cheese, onion rings, sauces",
+      "details": [
+        "90-minute limit",
+        "$35"
+      ],
+      "prize": "Win: free meal + t-shirt + Wall of Fame",
+      "verified": false,
+      "source": "https://www.foodchallenges.com/challenges/burger-bars-6lb-loaded-burger-challenge-colchester/",
+      "original": false
+    },
+    {
+      "id": "end-to-ender",
+      "title": "Long Trail End-to-Ender",
+      "emoji": "🥾",
+      "category": "climb",
+      "where": "the whole Long Trail",
+      "blurb": "hike all 272 miles, Massachusetts to Canada",
+      "details": [
+        "apply to the Green Mountain Club for a certificate, patch, and your name printed in Long Trail News (submission deadlines Oct 1 / Mar 1)"
+      ],
+      "prize": "a certificate, patch, and your name printed in Long Trail News",
+      "verified": true,
+      "source": "https://www.greenmountainclub.org/the-long-trail/end-to-end/",
+      "original": false
+    },
+    {
+      "id": "creemee-crawl",
+      "title": "The Creemee Crawl",
+      "emoji": "🍦",
+      "category": "eat",
+      "where": "Burlington + environs",
+      "blurb": "one creemee from five different stands in a single summer",
+      "details": [
+        "maple counts double (kidding — but get at least one maple)"
+      ],
+      "prize": null,
+      "verified": true,
+      "source": null,
+      "original": true
+    },
+    {
+      "id": "dawn-patrol",
+      "title": "Dawn Patrol",
+      "emoji": "🌅",
+      "category": "streak",
+      "where": "Burlington waterfront",
+      "blurb": "watch five sunrises from the waterfront in one month",
+      "details": [
+        "bonus points for a February one"
+      ],
+      "prize": null,
+      "verified": true,
+      "source": null,
+      "original": true
+    },
+    {
+      "id": "sunset-tour",
+      "title": "The Sunset Tour",
+      "emoji": "🌇",
+      "category": "explore",
+      "where": "around Burlington",
+      "blurb": "catch a sunset from every spot on the Btown Brief sunset guide",
+      "details": [
+        "https://guide.btownbrief.com/sunset.html"
+      ],
+      "prize": null,
+      "verified": true,
+      "source": null,
+      "original": true
+    },
+    {
+      "id": "park-passport",
+      "title": "Park Passport",
+      "emoji": "🌳",
+      "category": "explore",
+      "where": "Burlington",
+      "blurb": "set foot in every Burlington city park — yes, all of them",
+      "details": [],
+      "prize": null,
+      "verified": true,
+      "source": null,
+      "original": true
+    },
+    {
+      "id": "the-long-swim",
+      "title": "The Long Swim",
+      "emoji": "🏊",
+      "category": "streak",
+      "where": "Lake Champlain",
+      "blurb": "swim in the lake at least once a month, May through October",
+      "details": [
+        "October counts double in spirit"
+      ],
+      "prize": null,
+      "verified": true,
+      "source": null,
+      "original": true
+    },
+    {
+      "id": "island-line",
+      "title": "Island Line End-to-End",
+      "emoji": "🚲",
+      "category": "explore",
+      "where": "Burlington → South Hero",
+      "blurb": "ride the Island Line Trail end to end, causeway and bike ferry included",
+      "details": [],
+      "prize": null,
+      "verified": true,
+      "source": null,
+      "original": true
+    },
+    {
+      "id": "four-seasons-summit",
+      "title": "Four Seasons, One Summit",
+      "emoji": "🍂",
+      "category": "climb",
+      "where": "your pick of peak",
+      "blurb": "summit the same Vermont peak in all four seasons within one year",
+      "details": [],
+      "prize": null,
+      "verified": true,
+      "source": null,
+      "original": true
+    },
+    {
+      "id": "local-ten",
+      "title": "The Local Ten",
+      "emoji": "🛍",
+      "category": "explore",
+      "where": "downtown Burlington",
+      "blurb": "buy something from ten different locally-owned shops",
+      "details": [
+        "farmers market stalls count"
+      ],
+      "prize": null,
+      "verified": true,
+      "source": null,
+      "original": true
+    }
+  ]
+}
